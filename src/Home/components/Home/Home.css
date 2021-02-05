@@ -1,0 +1,354 @@
+@media screen and (min-width: 780px) {
+  .container {
+    margin-bottom: 25px;
+    background: #fff;
+  }
+
+  .div-cart {
+    display: flex;
+    flex-direction: row;
+  }
+  .item-cart {
+    background-color: red;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+  }
+  .header {
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+  }
+  .account {
+    display: flex;
+    align-items: center;
+    color: #7a7a7a;
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .text {
+    font-family: "Nunito", sans-serif;
+    flex-direction: row;
+    color: #fff;
+  }
+  .img {
+    width: 161px;
+    height: 37px;
+    top: 21px;
+  }
+  .search {
+    width: 400px;
+    height: 23px;
+    bottom: 20px;
+  }
+  .banner {
+    width: 100%;
+    height: 430px;
+  }
+  .img-banner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sellers-content {
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+  }
+
+  .border-text {
+    border-bottom: 5px solid #7a7a7a;
+    border-radius: 50px 50px;
+    width: 5%;
+  }
+
+  .product-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin: 0 10px 0 0;*/
+    height: 400px;
+  }
+
+  .cards {
+    width: 200px;
+    height: 350px;
+    margin: 0 35px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sellers-container {
+    padding-left: 5vh;
+  }
+
+  .name {
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .price {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
+  .btn-product {
+    font-family: "Nunito", sans-serif;
+    padding: 15px;
+    background-color: #000000;
+    color: #e5e5e5;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #000;
+    outline: none;
+    width: 100%;
+    max-height: 45px;
+  }
+  .chevron {
+    size: 18;
+  }
+
+  .newslatter {
+    background: #f2f2f2;
+    height: 146px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text-news {
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+  }
+
+  footer {
+    background-color: black;
+    color: #e5e5e5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .div-address {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+  }
+
+  .div-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .div-footer button {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    font-family: "Nunito", sans-serif;
+    color: #000;
+    background-color: #f2f2f2;
+    height: 60px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  .imgs-footer p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .container {
+    margin-bottom: 25px;
+    background: #fff;
+  }
+
+  .div-cart {
+    display: flex;
+    flex-direction: row;
+  }
+  .item-cart {
+    background-color: red;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+  }
+  .header {
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+  }
+  .account {
+    display: flex;
+    align-items: center;
+    color: #7a7a7a;
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .text {
+    font-family: "Nunito", sans-serif;
+    flex-direction: row;
+    color: #fff;
+  }
+  .img {
+    width: 161px;
+    height: 37px;
+    top: 21px;
+  }
+  .search {
+    width: 400px;
+    height: 23px;
+    bottom: 20px;
+  }
+  .banner {
+    width: 100%;
+    height: 430px;
+  }
+  .img-banner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sellers-content {
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+  }
+
+  .border-text {
+    border-bottom: 5px solid #7a7a7a;
+    border-radius: 50px 50px;
+    width: 5%;
+  }
+
+  .product-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*margin: 0 10px 0 0;*/
+    height: 400px;
+  }
+
+  .cards {
+    width: 200px;
+    height: 350px;
+    margin: 0 35px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sellers-container {
+    padding-left: 5vh;
+  }
+
+  .name {
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .price {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
+  .btn-product {
+    font-family: "Nunito", sans-serif;
+    padding: 15px;
+    background-color: #000000;
+    color: #e5e5e5;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #000;
+    outline: none;
+    width: 100%;
+    max-height: 45px;
+  }
+  .chevron {
+    size: 18;
+  }
+
+  .newslatter {
+    background: #f2f2f2;
+    height: 146px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text-news {
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+  }
+
+  footer {
+    background-color: black;
+    color: #e5e5e5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .div-address {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+  }
+
+  .div-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .div-footer button {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    font-family: "Nunito", sans-serif;
+    color: #000;
+    background-color: #f2f2f2;
+    height: 60px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  .imgs-footer p {
+    font-size: 12px;
+  }
+}

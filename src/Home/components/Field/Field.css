@@ -1,0 +1,66 @@
+@media screen and (min-width: 780px) {
+  form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  input {
+    margin-right: 10px;
+    background: #fff;
+    border: none;
+    height: 50px;
+    width: 290px;
+    border-radius: 5px;
+  }
+
+  button {
+    font-family: "Nunito", sans-serif;
+    padding: 15px;
+    background-color: #000000;
+    color: #e5e5e5;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #000;
+    outline: none;
+    width: 120px;
+    max-height: 55px;
+  }
+
+  .error {
+    color: red;
+    font-family: "Nunito", sans-serif;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    background: #fff;
+    border: none;
+    height: 50px;
+    width: 290px;
+    border-radius: 5px;
+  }
+
+  button {
+    font-family: "Nunito", sans-serif;
+    padding: 15px;
+    background-color: #000000;
+    color: #e5e5e5;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #000;
+    outline: none;
+    width: 120px;
+    max-height: 55px;
+  }
+
+  .error {
+    color: red;
+    font-family: "Nunito", sans-serif;
+  }
+}
